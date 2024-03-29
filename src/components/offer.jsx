@@ -1,6 +1,6 @@
 import Offerpng from "../assets/offeropa.png"
 import "./offer.scss"
-import PromotionTimer from "../components/timer"; // Предполагается, что у вас есть компонент PromotionTimer
+import PromotionTimer from "../components/timer"; 
 
 const Offer = () => {
     return (

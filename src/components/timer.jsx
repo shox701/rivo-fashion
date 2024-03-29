@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const PromotionTimer = ({ type, textClass, numberClass }) => {
     const calculateTimeLeft = () => {
-        const difference = +new Date("2024-04-01") - +new Date();
+        const difference = +new Date("2024-04-06") - +new Date();
         let timeLeft = {};
 
         if (difference > 0) {

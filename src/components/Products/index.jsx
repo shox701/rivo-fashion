@@ -19,10 +19,20 @@ const Products = () => {
     }, [])
 
     return (
-        <div className="products-container">
-            {data.map((item) =>
-                <CardComponent title={item.title} price={item.price} rate={item.rating.rate} image={item.image} />
-            )}
+        <div className="text-content">
+            <h2>Our Products</h2>
+            <ul>
+                <li>Sale</li>
+                <li>HOT</li>
+                <li>New Arrivals</li>
+                <li>Accessories</li>
+
+            </ul>
+            <div className="products-container">
+                {data.map((item) =>
+                    <CardComponent key={item.id} title={item.title} price={item.price} rate={item.rating.rate} image={item.image} />
+                )}
+            </div>
         </div>
     )
 }

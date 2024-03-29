@@ -1,12 +1,12 @@
-.cart-container {
-  max-width: 318px;
+.bcart-container {
+  max-width: 430px;
   height: auto;
   margin: 0 auto;
 
 
-  .cart-image {
-    width: 318px;
-    height: 378px;
+  .bcart-image {
+    width: 430px;
+    height: 566px;
     object-fit: contain;
     transition: transform 0.3s;
 
@@ -15,39 +15,40 @@
     }
   }
 
-  .cart-content {
+  .bcart-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 36px 0;
 
-    .title {
+
+    .btitle {
       font-size: 22px;
       font-weight: 600;
       line-height: 33px;
     }
 
-    .price {
+    .bprice {
       display: flex;
       align-items: center;
       justify-content: space-between;
       width: 229px;
       margin-top: 8px;
 
-      .price-text {
+      .bprice-text {
         font-size: 22px;
         font-weight: 500;
         line-height: 33px;
       }
 
-      .divider {
+      .bdivider {
         width: 2px;
         height: 27px;
         background-color: #000;
       }
 
-      .rate {
+      .brate {
         display: flex;
         align-items: center;
         gap: 10px;

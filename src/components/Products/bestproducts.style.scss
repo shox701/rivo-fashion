@@ -1,0 +1,41 @@
+.bproducts-container {
+    max-width: 1560px;
+    margin: 150px auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 43px;
+}
+
+.btext-content {
+    text-align: center;
+
+    h2 {
+        font-weight: 500;
+        font-size: 64px;
+        color: #224f34;
+        margin-top: 114px;
+        font-family: "Roboto Slab", sans-serif;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 22px;
+        color: #224f34;
+        margin-top: 37px;
+    }
+
+    button {
+        border: 2px solid #224f34;
+        border-radius: 3px;
+        padding: 16px 55px;
+        width: 224px;
+        height: 65px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        color: #224f34;
+        background-color: white;
+    }
+}
